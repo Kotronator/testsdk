@@ -2,28 +2,17 @@
 //  sdkTest.swift
 //  sdkTest
 //
-//  Created by Dimitris Kotronis on 27/1/26.
+//  Created by Dimitris Kotronis on 28/1/26.
 //
 
 import Foundation
 
-
 public class MyPublicClass{
-    public func helloWorld(){
-        print("hello world")
-        prHelloWorld()
-        Example().printExample()
+    public func sayHello(){
+        printHello()
     }
     
-    func prHelloWorld(){
-        print("hello world prHelloWorld")
+    func printHello(){
+        print("Hello world")
     }
-}
-
-class Example{
-    func printExample(){
-        print("This is an example")
-
-    }
-    
 }
