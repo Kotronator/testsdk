@@ -23,6 +23,7 @@
 /* Begin PBXFileReference section */
 		A92E90B72F2A2CF4006D9E95 /* sdkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sdkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92E90C22F2A2CF4006D9E95 /* sdkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sdkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E704062F2BB897004F42FF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -60,6 +61,7 @@
 		A92E90AD2F2A2CF4006D9E95 = {
 			isa = PBXGroup;
 			children = (
+				A9E704062F2BB897004F42FF /* README.md */,
 				A92E90B92F2A2CF4006D9E95 /* sdkTest */,
 				A92E90C62F2A2CF4006D9E95 /* sdkTestTests */,
 				A92E90B82F2A2CF4006D9E95 /* Products */,
