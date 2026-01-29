@@ -15,4 +15,8 @@ public class MyPublicClass{
     func printHello(){
         print("Hello world")
     }
+    
+    public func newMethod(){
+        print("new method")
+    }
 }
