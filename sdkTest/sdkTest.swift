@@ -19,4 +19,8 @@ public class MyPublicClass{
     public func newMethod(){
         print("new method")
     }
+    
+    public func aThirdMethod(){
+        print("aThirdMethod")
+    }
 }
