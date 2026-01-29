@@ -28,13 +28,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Generate Docs
-        run: xcodebuild docbuild -scheme myScheme -destination "generic/platform=ios" -derivedDataPath ./doccBuild OTHER_DOCC_FLAGS="--transform-for-static-hosting --output-path ./docc --hosting-base-path '/testsdk'"
+        run: xcodebuild docbuild -scheme myScheme -destination "generic/platform=ios" -derivedDataPath ./doccBuild OTHER_DOCC_FLAGS="--transform-for-static-hosting --output-path ./docc --hosting-base-path '/testsdk'" CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""
     
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    needs: build-docs
     steps:
       - name: Setup Pages
         uses: actions/configure-pages@v5
