@@ -1,5 +1,6 @@
 # TestSDK
 This is a test SDK.
+New line
 
 ## Documentation
 Check Swift on [GitHub Pages](https://kotronator.github.io/testsdk/documentation/sdktest/)
